@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px 200px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+.entradas {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+
+.validaciones {
+    margin-top: -10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.validaciones ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;
+}
+
+.validaciones li {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.terminos label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 1px;
+    transform: scale(1.2);
+    
+}
+
+.formulario button {
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+.beneficios {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.beneficios h2 {
+    margin-bottom: 10px;
+}
+
+.beneficios img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.beneficios p {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.beneficios-puntos {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 45%;
+}
+
+.beneficios-puntos h2 {
+    margin-bottom: 10px;
+}
+
+.beneficios-puntos p {
+    margin-bottom: 15px;
+}

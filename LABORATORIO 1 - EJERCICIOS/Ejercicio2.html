@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style2.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <div class="titulo">
+                <h1>Regístrate</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="formulario">
+            <form action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input class="entradas" type="text" required placeholder="Ingrese su nombre">
+
+                <label for="apellidos">Apellidos:</label>
+                <input class="entradas" type="text" required placeholder="Ingrese sus apellidos">
+
+                <label for="dni">DNI:</label>
+                <input class="entradas" type="text" required minlength="8" maxlength="8" placeholder="Ingrese su DNI">
+
+                <label for="email">Correo Electrónico:</label>
+                <input class="entradas" type="email" required placeholder="Ingrese su email">
+                    
+                <label for="contrasena">Contraseña:</label>
+                <input class="entradas" type="password" required minlength="8" placeholder="Ingrese una contraseña">
+                <div class="validaciones">
+                    <ul>
+                        <li>Mínimo 8 caracteres</li>
+                        <li>Ningun espacio</li>
+                        <li>1 número</li>
+                        <li>1 mayúscula</li>
+                    </ul>
+                </div>
+                <div class="terminos">
+                    <label for="">
+                        <input type="checkbox" name="opcion1" value="valor1">
+                        Acepto los términos y condiciones para acumular Puntos en mis compras.
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="opcion2" value="valor2">
+                        Acepto los términos y condiciones, y autorizo la política de privacidad. 
+                    </label>
+                </div>
+                <button type="submit">REGISTRARME</button>
+            </form>
+        </div>
+        <div class="beneficios">
+            <h2>Beneficios</h2>
+            <p><img src="img/campana.PNG" alt="">Recibir notificaciones en tiempo real de tus pedidos.</p>
+            <p><img src="img/boleta.PNG" alt="">Revisa tus boletas online.</p>
+            <p><img src="img/pagos.PNG" alt="">Guarda medios de pago y direcciones favoritas.</p>
+            <h2>Beneficios Puntos</h2>
+            <p>Acumula puntos con cada compra y canjéalos por grandes recompensas.</p>
+            <p>Canje de productos, experiencias, viajes y Gift Cards.</p>
+            <p>Promociones especiales, cupones de descuento y más.</p>
+        </div>
+    </div>
+</body>
+</html>
