@@ -1,0 +1,18 @@
+.hls-background {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.hls-text {
+    color: hsl(120, 100%, 50%);
+    padding: 20px;
+    margin: 10px;
+}
+
+.hls-border {
+    border: 5px solid hsl(240, 100%, 50%);
+    padding: 20px;
+    margin: 10px;
+}

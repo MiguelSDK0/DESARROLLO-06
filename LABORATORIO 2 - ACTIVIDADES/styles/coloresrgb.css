@@ -1,0 +1,18 @@
+.rgb-background {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.rgb-text {
+    color: rgb(0%, 100%, 0%);
+    padding: 20px;
+    margin: 10px;
+}
+
+.rgb-border {
+    border: 5px solid rgb(0, 0, 255);
+    padding: 20px;
+    margin: 10px;
+}

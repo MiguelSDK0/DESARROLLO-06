@@ -1,0 +1,25 @@
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+a[href^="https"] {
+    color: green;
+    text-decoration: none;
+}
+
+img[src$=".png"] {
+    border: 5px solid orange;
+}
+
+a[href*="example"] {
+    font-weight: bold;
+}
+
+input[placeholder~="nombre"] {
+    background-color: lightyellow;
+}
+
+input[class|="input-"] {
+    background-color: lightpink;
+}

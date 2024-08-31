@@ -1,0 +1,38 @@
+.box-percentage {
+    width: 50%;
+    height: 50%;
+    background-color: lightblue;
+}
+
+.box-em {
+    font-size: 2em;
+    width: 20em;
+    height: 8em;
+    background-color: lightgreen;
+}
+
+.box-rem {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 7.5rem;
+    background-color: lightcoral;
+}
+
+.box-vw {
+    width: 30vw;
+    height: 15vw;
+    background-color: lightgoldenrodyellow;
+}
+
+.box-vh {
+    width: 40vh;
+    height: 20vh;
+    background-color: lightsalmon;
+}
+
+.box-mixed {
+    width: 80%;
+    font-size: 2em;
+    padding: 1em;
+    background-color: lightseagreen;
+}

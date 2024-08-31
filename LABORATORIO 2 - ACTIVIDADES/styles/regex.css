@@ -1,0 +1,19 @@
+a[href^="https"] {
+    color: green;
+}
+
+a[href$=".pdf"] {
+    color: red;
+}
+
+a[href*="example"] {
+    font-weight: bold;
+}
+
+input[id^="user-"] {
+    background-color: lightgrey;
+}
+
+div[class~="highlight"] {
+    border: 2px solid orange;
+}

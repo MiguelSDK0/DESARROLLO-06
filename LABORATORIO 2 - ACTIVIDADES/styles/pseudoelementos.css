@@ -1,0 +1,34 @@
+h1::before {
+    content: "🌟 ";
+    color: gold;
+}
+
+h1::after {
+    content: " 🌟";
+    color: gold;
+}
+
+p::first-line {
+    font-weight: bold;
+    color: red;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: blue;
+}
+
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+li::marker {
+    color: green;
+    font-size: 1.5em;
+}

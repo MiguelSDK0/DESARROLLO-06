@@ -1,0 +1,35 @@
+.box-px {
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.box-cm {
+    width: 10cm;
+    height: 5cm;
+    background-color: lightgreen;
+}
+
+.box-mm {
+    width: 100mm;
+    height: 50mm;
+    background-color: lightcoral;
+}
+
+.box-in {
+    width: 4in;
+    height: 2in;
+    background-color: lightgoldenrodyellow;
+}
+
+.box-pt {
+    width: 300pt;
+    height: 150pt;
+    background-color: lightsalmon;
+}
+
+.box-pc {
+    width: 25pc;
+    height: 12pc;
+    background-color: lightseagreen;
+}

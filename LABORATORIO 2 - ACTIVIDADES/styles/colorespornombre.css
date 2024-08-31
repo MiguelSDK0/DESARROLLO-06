@@ -1,0 +1,18 @@
+.blue-background {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.red-text {
+    color: red;
+    padding: 20px;
+    margin: 10px;
+}
+
+.green-border {
+    border: 5px solid green;
+    padding: 20px;
+    margin: 10px;
+}

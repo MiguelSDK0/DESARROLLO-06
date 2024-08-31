@@ -1,0 +1,54 @@
+body {
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    font-size: 16px;
+}
+
+section {
+    margin: 20px;
+    border: red solid;
+}
+
+article {
+    line-height: 1.5;
+}
+
+nav a {
+    color: inherit;
+}
+
+main {
+    text-align: left;
+}
+
+h1 {
+    color: blue;
+}
+#main-title {
+    color: red;
+}
+
+p {
+    font-size: 14px !important;
+}
+
+button {
+    background-color: grey;
+}
+button.primary {
+    background-color: green;
+}
+
+div {
+    background-color: yellow;
+}
+
+#container .item {
+    padding: 10px;
+}

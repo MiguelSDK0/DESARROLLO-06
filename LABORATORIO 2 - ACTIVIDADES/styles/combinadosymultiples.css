@@ -1,0 +1,51 @@
+div p {
+    color: blue;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    margin-top: 20px;
+}
+
+h1 ~ p {
+    color: green;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+input[type="text"] {
+    border: 1px solid #000;
+}
+
+a:hover {
+    color: red;
+}
+
+p, .highlight, #main-content {
+    background-color: yellow;
+}
+
+button.primary, a.button {
+    background-color: blue;
+    color: white;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.card.small, .card.large {
+    padding: 20px;
+    margin: 10px;
+    border: #000 solid;
+}

@@ -1,0 +1,43 @@
+a:hover {
+    color: red;
+}
+
+input:focus {
+    outline: 2px solid green;
+}
+
+ul li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+
+p:last-child {
+    font-style: italic;
+}
+
+p:nth-of-type(2) {
+    color: blue;
+}
+
+input:not([type="text"]) {
+    background-color: lightblue;
+}
+
+input[type="checkbox"]:checked {
+    outline: 3px solid red;
+}
+
+input:disabled {
+    background-color: lightgray;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}

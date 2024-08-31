@@ -1,0 +1,29 @@
+.cabecera {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+}
+
+.item {
+    display: inline;
+    margin-right: 15px;
+    color: white;
+}
+
+.seccion {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f78989;
+}
+
+.pie {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 10px;
+}
