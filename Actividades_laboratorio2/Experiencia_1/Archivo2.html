@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex; /*Lo pone en una sola linea*/
+            justify-content: space-between; /**/
+            background-color: #0b1f44;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .Logo {
+            color: #7dfd00;
+        }
+
+        .Lista_Cabecera ul a {
+            color: white;
+            margin: 10px;
+        }
+
+        body{
+            background-image: url(./Imagenes/fondo_cuerpo_2.jpg);
+        }
+        
+        #acerca_de_mi {
+            max-width: 600px; /*limite de bordes*/
+            margin: 30px auto; 
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .Titulo{
+            font-size: 30px;
+            color: white;
+        }
+
+        .Texto{
+            color: white;
+        }
+
+        #habilidades{
+            background-color: #020202;
+            max-width: 900px;
+            margin: 20px auto;
+            border-radius: 30px;
+            padding: 30px;
+        }
+
+        #habilidades h1{
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+
+        #habilidades div{
+            color: white;
+            
+        }
+        
+        .Separar_Habilidades{
+            display: flex;
+            justify-content: space-around; /**/
+        }
+
+        #educacion{
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #000000;
+            padding: 30px;
+            border-radius: 30px;
+            text-align: center;
+        }
+        
+        footer{
+            background-color: rgb(34, 14, 48);
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="Logo">
+            Curriculum
+        </div>
+
+        <nav class="Lista_Cabecera">
+            <ul>
+                <a href="#acerca_de_mi">Acerca_de_mi</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#educacion">Educacion</a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <body>
+        <section id="acerca_de_mi">
+            <h1 class="Titulo">Acerca de mi</h1>
+            <p class="Texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias corrupti nesciunt error quas ipsam id ut quis laudantium asperiores doloribus perspiciatis harum a, iste, eveniet, illo possimus ea expedita cum.
+                Placeat ipsa eos tempora esse vel voluptatum, deleniti officiis doloremque deserunt est eveniet? Odit voluptates a ipsam quia sapiente, molestiae quod earum aspernatur quibusdam dolor, consequatur dolorem optio accusantium ut.</p>
+        </section>
+
+        <section id="habilidades">
+            <h1>Habilidades:</h1>
+            <div class="Separar_Habilidades">
+                <div>            
+                    <ul>
+                        <h2>Habilidades Tecnicas</h2>
+                        <li>Javascript</li>
+                        <li>Java</li>
+                        <li>HTML y CSS</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div>            
+                    <ul>
+                        <h2>Habilidades Profecionales</h2>
+                        <li>Comunicacion</li>
+                        <li>Creatividad</li>
+                        <li>Trabajo en Equipo</li>
+                        <li>Proactivo</li>
+                    </ul>
+                </div>            
+            </div>
+
+        </section>
+
+        <section id="educacion">
+            <h1 class="Titulo">Educacion</h1>
+            <p class="Texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dicta ipsum! Et, alias. Repudiandae veniam voluptatem laborum labore, repellat consequatur atque omnis! Sit tempore voluptas aliquam nisi iure doloremque a?</p>
+        </section>
+    </body>
+
+    <footer>
+        <h1>Contactame</h1>
+        <p>Numero: 999999999</p>
+        <p>Correo: cesar.chambil@ucsm.edu.pe</p>
+    </footer>
+</body>
+</html>

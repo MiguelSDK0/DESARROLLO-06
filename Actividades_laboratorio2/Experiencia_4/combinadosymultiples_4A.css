@@ -1,0 +1,60 @@
+/*conbinada*/
+section h2 {
+    color: #2d5c80;
+    font-size: 30px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: #313030;
+}
+
+h2 + p {
+    margin-top: 20px;
+    color: #535151;
+}
+
+section > div {
+    font-style: italic;
+    color: #4b4646;
+}
+
+h2:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+a[href^="https"] {
+    color: rgb(7, 143, 7);
+    text-decoration: none;
+}
+
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+/*multiples*/
+h1, h2, h3 {
+    color: #4aa74d;
+    text-align: center;
+}
+
+section div, footer p {
+    font-weight: bold;
+    text-align: center;
+}
+
+div, p, footer {
+    margin: 20px;
+    padding: 10px;
+}
+
+section, div {
+    border: 2px solid black;
+    background-color: white;
+}
+
+footer, h1{
+    padding: 10px;
+    background-color: white;
+}

@@ -1,0 +1,38 @@
+h1::before {
+    content: "----";
+    color: black;
+}
+
+h1::after {
+    content: " ----";
+    color: black;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: #2a5d84;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-variant: arial;
+    color: #504b4b;
+}
+
+::selection {
+    background-color: #17ff1e;
+    color: white;
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
+a::before {
+    content: url('./google.png');
+}
+

@@ -1,0 +1,37 @@
+h1 {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: rgba(255, 0, 0, 0.6);
+    font-size: 30px;
+    border: 2px solid rgba(196, 193, 23, 0.4);
+    border-radius: 10px;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+}
+
+div {
+    color: rgba(72, 255, 0, 0.7);
+    text-align: center;
+}
+
+section {
+    background-color: rgba(27, 27, 68, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+}

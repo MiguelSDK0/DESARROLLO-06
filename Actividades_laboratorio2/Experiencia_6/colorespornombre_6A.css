@@ -1,0 +1,37 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+}
+
+div {
+    color: lime;
+    text-align: center;
+}
+
+section {
+    background-color: navy;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}

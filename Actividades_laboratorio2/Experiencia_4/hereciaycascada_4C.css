@@ -1,0 +1,67 @@
+/*herencia*/
+body {
+    color: #3a3737;
+    font-family: arial;
+}
+
+section {
+    font-size: 20px;
+}
+
+blockquote {
+    font-style: arial;
+    color: #575151;
+}
+
+header {
+    text-align: center;
+}
+
+section div {
+    background-color: white;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/*cascada*/
+p {
+    color: blue;
+}
+
+p.special {
+    color: red;
+}
+
+h2 {
+    color: green !important;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1.big {
+    font-size: 50px;
+}
+
+h2.inline {
+    color: orange;
+}
+
+p {
+    background-color: yellow;
+}
+
+p.alert {
+    background-color: rgb(180, 169, 169);
+    font-weight: bold;
+}

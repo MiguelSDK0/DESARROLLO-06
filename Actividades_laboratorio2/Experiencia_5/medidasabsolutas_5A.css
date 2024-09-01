@@ -1,0 +1,34 @@
+/* Medidas en píxeles (px) */
+header {
+    height: 100px;
+    padding: 20px;
+    background-color: #4CAF50;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 24pt;
+    margin-bottom: 12pt;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 16pt;
+}
+
+div{
+    width: 10cm;
+    height: 5cm;
+    background-color: #c4a7a7;
+    margin-bottom: 1cm;
+}

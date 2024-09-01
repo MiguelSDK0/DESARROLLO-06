@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    color: red;
+    font-size: 30px;
+    border: 2px solid #c4c117;
+    border-radius: 10px;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333030;
+    line-height: 1.6;
+    color: white;
+}
+
+div{
+    color: rgb(72, 255, 0);
+    text-align: center;
+}
+
+section{
+    background-color: rgb(27, 27, 68);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,46 @@
+section p:first-of-type {
+    font-weight: bold;
+    color: white;
+    background-color: #333030;
+}
+
+section:last-child {
+    background-color: #c4d2dd;
+    padding: 15px;
+}
+
+a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #350af5;
+}
+
+a:active {
+    color: #d2691e;
+}
+
+header h1:first-child {
+    font-size: 2em;
+    color: #4caf50;
+}
+
+footer p:last-child {
+    font-style: italic;
+    color: #302a2a;
+}
+
+section:nth-child(odd) {
+    background-color: white;
+}
+
+section:nth-child(even) {
+    background-color: white;
+}
+
+input:focus {
+    border: 2px solid #1414e0;
+    background-color: white;
+}

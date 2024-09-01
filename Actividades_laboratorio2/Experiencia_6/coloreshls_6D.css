@@ -1,0 +1,37 @@
+h1 {
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: hsl(0, 100%, 50%);
+    font-size: 30px;
+    border: 2px solid hsl(60, 76%, 50%);
+    border-radius: 10px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5;
+}
+
+div {
+    color: hsl(120, 100%, 50%);
+    text-align: center;
+}
+
+section {
+    background-color: hsl(240, 60%, 20%);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 20px;
+}
