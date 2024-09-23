@@ -1,0 +1,182 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
+body {
+  font-family: "Arial, sans-serif";
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  background-color: #34495e;
+  border-bottom: 3px solid #e74c3c;
+}
+.navbar .navbar-brand {
+  color: #ecf0f1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand:hover {
+  color: white;
+}
+.navbar .nav-link {
+  color: #ecf0f1;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s, transform 0.3s;
+}
+.navbar .nav-link:hover {
+  color: #e74c3c;
+  transform: translateY(-3px);
+}
+.navbar .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+.navbar .navbar-nav .active .nav-link {
+  font-weight: bold;
+  color: #e74c3c;
+  border-bottom: 2px solid #e74c3c;
+}
+
+.nav-item .fa-shopping-cart {
+  font-size: 1.5rem;
+  color: #e74c3c;
+}
+
+footer {
+  background-color: #34495e;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+footer p a {
+  color: #e74c3c;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer p a:hover {
+  color: #ed7669;
+}
+
+.carousel-item img {
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.carousel-item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 15px;
+}
+.carousel-item .carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.carousel-item .carousel-caption p {
+  font-size: 1rem;
+  color: #ffccbc;
+}
+.carousel-item .carousel-control-prev-icon,
+.carousel-item .carousel-control-next-icon {
+  filter: brightness(0) invert(1);
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card .card-img-top {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #f3f4f6;
+}
+.card .card-body h5 {
+  color: #34495e;
+  font-weight: bold;
+}
+.card .card-body .card-text {
+  color: #666;
+}
+.card .card-body .btn-primary {
+  background-color: #e74c3c;
+  border: none;
+}
+.card .card-body .btn-primary:hover {
+  background-color: #d62c1a;
+}
+
+#productosOtono .card .card-body, #productosInvierno .card .card-body, #productosVerano .card .card-body {
+  background-color: #fff;
+  border-top: 5px solid #e74c3c;
+}
+
+.jumbotron {
+  background-color: #e74c3c;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.jumbotron .btn-primary {
+  background-color: #34495e;
+  border: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+.jumbotron .btn-primary:hover {
+  background-color: #22303d;
+}
+
+.product-detail .img-fluid {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-detail h1 {
+  color: #34495e;
+  font-size: 2.5rem;
+}
+.product-detail h4 {
+  color: #19232d;
+}
+
+.cart-table thead {
+  background-color: #34495e;
+  color: #fff;
+}
+.cart-table tbody tr td {
+  vertical-align: middle;
+}
+.cart-table .btn-danger {
+  background-color: #e74c3c;
+  border: none;
+}
+.cart-table .btn-danger:hover {
+  background-color: #d62c1a;
+}
+.cart-table .btn-success {
+  background-color: #34495e;
+  border: none;
+}
+.cart-table .btn-success:hover {
+  background-color: #22303d;
+}/*# sourceMappingURL=style.css.map */

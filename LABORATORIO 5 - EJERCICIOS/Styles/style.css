@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logoHeader {
+  padding: 20px;
+  padding-left: 100px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.logoHeader img {
+  width: 100px;
+  height: auto;
+}
+
+.categoriasHeader {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  border: 1px solid #cbccd6;
+  height: 40px;
+}
+.categoriasHeader li {
+  margin-left: 20px;
+}
+.categoriasHeader li a {
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.CuerpoCompleto {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.listaCartasP {
+  display: flex;
+  justify-content: center;
+}
+.listaCartasP a {
+  text-decoration: none;
+}
+
+.tituloCursos {
+  color: #979771;
+  font-size: 50px;
+}
+
+.infoCursos {
+  color: #979771;
+  font-size: 20px;
+}
+
+.imagenCuerpo {
+  border: 0;
+  margin: 0;
+  width: 100%;
+}
+.imagenCuerpo img {
+  width: 100%;
+  height: auto;
+}
+
+.carta {
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 700px;
+  text-align: left;
+  margin: 20px;
+  border: 1px solid #000000;
+}
+.carta img {
+  width: 100%;
+  height: 350px;
+}
+.carta .cartaInformacion {
+  padding: 15px;
+}
+.carta .cartaInformacion h2 {
+  font-size: 20px;
+  margin: 7px 0;
+  color: #333;
+}
+.carta .cartaInformacion p {
+  color: #721fdf;
+  font-size: 14px;
+  margin: 7px;
+}
+.carta .cartaInformacion .cartaDuracion {
+  background-color: #000000;
+  color: white;
+  padding: 3px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.carta .cartaInformacion .cartaFecha {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cartaProductos {
+  cursor: pointer;
+  border-radius: none;
+  overflow: hidden;
+  max-width: 700px;
+  text-align: left;
+  margin: 20px;
+  border: 1px solid none;
+}
+.cartaProductos img {
+  width: 100%;
+  height: 350px;
+}
+.cartaProductos .cartaInformacion {
+  padding: 15px;
+}
+.cartaProductos .cartaInformacion h2 {
+  font-size: 20px;
+  margin: 7px 0;
+  color: #333;
+}
+.cartaProductos .cartaInformacion p {
+  color: #721fdf;
+  font-size: 14px;
+  margin: 7px;
+}
+.cartaProductos .cartaInformacion .cartaDuracion {
+  background-color: #000000;
+  color: white;
+  padding: 3px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.cartaProductos .cartaInformacion .cartaFecha {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cuerpoProductos {
+  display: flex;
+  justify-content: center;
+}
+.cuerpoProductos li {
+  margin: 40px;
+}
+.cuerpoProductos h1 {
+  font-size: 30px;
+}
+.cuerpoProductos div {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #1a1b1d;
+  color: white;
+}
+footer .listafooter {
+  display: flex;
+  justify-content: center;
+}
+footer .listafooter li {
+  list-style-type: none;
+  margin: 20px 100px;
+}
+footer .listafooter li .logoPiePaginaControno {
+  width: 240px;
+  height: 120px;
+}
+footer .listafooter li .logoPiePaginaControno img {
+  width: 100%;
+  height: 100%;
+}
+footer .listafooter li .ListaIconosRedesSociales {
+  display: flex;
+}
+footer .listafooter li .ListaIconosRedesSociales li {
+  margin: 10px;
+}
+footer .listafooter li .ListaIconosRedesSociales li .IconosRedesSociales {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+footer .listafooter li .ListaIconosRedesSociales li .IconosRedesSociales img {
+  width: 100%;
+  height: 100%;
+}
+footer .listafooter li .ListaInformacionContacto div, footer .listafooter li .ListaInformacionContacto h2 {
+  margin: 10px auto;
+  color: #979771;
+}
+footer .listafooter li .categoriaListaFooter li {
+  margin: 9px;
+}
+footer .listafooter li .categoriaListaFooter li a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,204 @@
+$primary-color: #34495e;
+$secondary-color: #ecf0f1;
+$highlight-color: #e74c3c;
+$background-color: #f3f4f6;
+$font-family-base: 'Arial, sans-serif';
+$nav-font-size: 1.1rem;
+
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
+
+body {
+  font-family: $font-family-base;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  background-color: $primary-color;
+  border-bottom: 3px solid $highlight-color;
+  .navbar-brand {
+    color: $secondary-color;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:hover {
+      color: lighten($secondary-color, 10%);
+    }
+  }
+  .nav-link {
+    color: $secondary-color;
+    font-size: $nav-font-size;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s, transform 0.3s;
+    &:hover {
+      color: $highlight-color;
+      transform: translateY(-3px);
+    }
+  }
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+  .navbar-nav .active .nav-link {
+    font-weight: bold;
+    color: $highlight-color;
+    border-bottom: 2px solid $highlight-color;
+  }
+}
+
+.nav-item .fa-shopping-cart {
+  font-size: 1.5rem;
+  color: $highlight-color;
+}
+
+
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    a {
+      color: $highlight-color;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        color: lighten($highlight-color, 10%);
+      }
+    }
+  }
+}
+
+.carousel-item {
+  img {
+    height: 450px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 15px;
+    h5 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    p {
+      font-size: 1rem;
+      color: #ffccbc;
+    }
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: brightness(0) invert(1);
+  }
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    background-color: $background-color;
+  }
+  .card-body {
+    h5 {
+      color: $primary-color;
+      font-weight: bold;
+    }
+    .card-text {
+      color: #666;
+    }
+    .btn-primary {
+      background-color: $highlight-color;
+      border: none;
+      &:hover {
+        background-color: darken($highlight-color, 10%);
+      }
+    }
+  }
+}
+
+#productosOtono, #productosInvierno, #productosVerano {
+  .card {
+    .card-body {
+      background-color: #fff;
+      border-top: 5px solid $highlight-color;
+    }
+  }
+}
+
+.jumbotron {
+  background-color: $highlight-color;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  .btn-primary {
+    background-color: $primary-color;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
+
+.product-detail {
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: $primary-color;
+    font-size: 2.5rem;
+  }
+  h4 {
+    color: darken($primary-color, 15%);
+  }
+}
+
+.cart-table {
+  thead {
+    background-color: $primary-color;
+    color: #fff;
+  }
+  tbody {
+    tr {
+      td {
+        vertical-align: middle;
+      }
+    }
+  }
+  .btn-danger {
+    background-color: $highlight-color;
+    border: none;
+    &:hover {
+      background-color: darken($highlight-color, 10%);
+    }
+  }
+  .btn-success {
+    background-color: $primary-color;
+    border: none;
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
