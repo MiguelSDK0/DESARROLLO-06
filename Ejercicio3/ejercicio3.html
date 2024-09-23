@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Linea</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tienda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ofertas</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="featuredCarousel" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#featuredCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#featuredCarousel" data-slide-to="1"></li>
+                <li data-target="#featuredCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/producto3.jpg" class="d-block w-100" alt="Producto 1" style="height: 400px; width: 100%; object-fit: contain;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Abrigo de Otono</h5>
+                        <p>Abrigo perfecto para otono.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/producto1.jpg" class="d-block w-100" alt="Producto 2" style="height: 400px; width: 100%; object-fit: contain;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Chaqueta de Invierno</h5>
+                        <p>Chaqueta calida.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/producto2.jpg" class="d-block w-100" alt="Producto 3" style="height: 400px; width: 100%; object-fit: contain;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Camisa de Verano</h5>
+                        <p>Camisa ligera.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#featuredCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/categoria1.png" class="card-img-top" alt="Categoria 1" style="height: 400px; width: 100%; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ropa de Otono</h5>
+                        <p class="card-text">Ropa para la mejor epoca del ano.</p>
+                        <a href="#" class="btn btn-primary" onclick="mostrarProducto('productosOtono')">Ver productos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/categoria2.png" class="card-img-top" alt="Categoria 1" style="height: 400px; width: 100%; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ropa de Invierno</h5>
+                        <p class="card-text">Ropa para el invierno mas frio.</p>
+                        <a href="#" class="btn btn-primary" onclick="mostrarProducto('productosInvierno')">Ver productos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/categoria3.png" class="card-img-top" alt="Categoria 3" style="height: 400px; width: 100%; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ropa de Verano</h5>
+                        <p class="card-text">Ropa para el verano mas caluroso.</p>
+                        <a href="#" class="btn btn-primary" onclick="mostrarProducto('productosVerano')">Ver productos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div id="productosOtono" class="row d-none">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/producto3.jpg" class="card-img-top" alt="Producto de Otono" style="height: 400px; width: 100%; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Abrigo de Otono</h5>
+                            <p class="card-text">Abrigo perfecto para la temporada de otono.</p>
+                            <a href="producto.html" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="productosInvierno" class="row d-none">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/producto1.jpg" class="card-img-top" alt="Producto de Invierno" style="height: 400px; width: 100%; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Chaqueta de Invierno</h5>
+                            <p class="card-text">Chaqueta calida para los dias mas frios.</p>
+                            <a href="producto.html" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="productosVerano" class="row d-none">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/producto2.jpg" class="card-img-top" alt="Producto de Verano" style="height: 400px; width: 100%; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Camisa de Verano</h5>
+                            <p class="card-text">Camisa ligera para los dias soleados.</p>
+                            <a href="producto.html" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron my-4">
+        <h1 class="display-4">No te pierdas nuestras ofertas</h1>
+        <p class="lead">Suscribete a nuestro boletin y recibe las ultimas promociones.</p>
+        <hr class="my-4">
+        <p>Productos de calidad a los mejores precios.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Suscribete ahora</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function mostrarProducto(categoria) {
+            document.getElementById('productosOtono').classList.add('d-none');
+            document.getElementById('productosInvierno').classList.add('d-none');
+            document.getElementById('productosVerano').classList.add('d-none');
+            document.getElementById(categoria).classList.remove('d-none');
+        }
+    </script>
+</body>
+</html>
