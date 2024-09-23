@@ -1,0 +1,20 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: #333 solid;
+}
+
+.caracteres{
+    margin: 10px 20px;
+}
+
+form .button{
+    justify-content: center;
+}

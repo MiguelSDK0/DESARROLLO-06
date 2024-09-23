@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 4</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" method="post">
+            <label for="">NOMBRE</label>
+            <input type="text" id="nombre">
+            <label for="">APELLIDOS</label>
+            <input type="text" id="apellidos">
+            <label for="">CARRERA:</label>
+            <input type="text" id="carrera">
+            <button onclick=mostrarDatos()>ENVIAR</button>
+            <script>
+                function mostrarDatos(){
+                    var nombre = document.getElementById("nombre").value;
+                    var apellido = document.getElementById("apellidos").value;
+                    var carrera = document.getElementById("carrera").value;
+                    alert("Alumno: " + nombre + apellido + '\n' + 'De la carrera: '+ carrera);                      
+                }
+            </script>
+        </form>
+    </div>
+</body>
+</html>
