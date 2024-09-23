@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Propinas</h1>
+        
+        <label for="montoCuenta">Monto de la cuenta:</label>
+        <input type="number" id="montoCuenta" placeholder="Ingresa el monto de la cuenta">
+        
+        <label for="porcentajePropina">Porcentaje de propina:</label>
+        <input type="number" id="porcentajePropina" placeholder="Ingresa el porcentaje de propina">
+        
+        <button onclick="calcularPropina()">Calcular</button>
+        
+        <h2>Resultados:</h2>
+        <p>Monto de la propina: <span id="montoPropina"></span></p>
+        <p>Total a pagar: <span id="totalPagar"></span></p>
+        
+    </div>
+
+    <script>
+        function calcularPropina() {
+            const montoCuenta = parseFloat(document.getElementById('montoCuenta').value);
+            const porcentajePropina = parseFloat(document.getElementById('porcentajePropina').value);
+
+            if (isNaN(montoCuenta) || isNaN(porcentajePropina)) {
+                alert("Por favor, ingresa valores válidos.");
+                return;
+            }
+
+            const propina = montoCuenta * (porcentajePropina / 100);
+            const totalPagar = montoCuenta + propina;
+
+            document.getElementById('montoPropina').textContent = propina.toFixed(2);
+            document.getElementById('totalPagar').textContent = totalPagar.toFixed(2);
+        }
+    </script>
+</body>
+</html>
