@@ -1,0 +1,43 @@
+$primary-color: #233d4e;
+$secondary-color: #2ecc71;
+$font-stack: 'Arial';
+$border-radius: 8px;
+
+@mixin Tajeta($color, $border-radius) {
+  background-color: $color;
+  border-radius: $border-radius;
+  padding: 20px;
+  border: 1px solid #000000;
+  color: rgb(36, 31, 31);
+}
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+}
+
+header {
+  background-color: $primary-color;
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+  h1 {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.cuerpo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  .tarjeraCuerpo {
+    @include Tajeta(rgb(219, 216, 216), 10px);
+  }
+}
