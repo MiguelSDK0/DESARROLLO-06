@@ -1,0 +1,55 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$font-stack: 'Roboto', sans-serif;
+$navbar-height: 60px;
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  -webkit-box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  box-shadow: $x $y $blur $color;
+}
+
+.navbar-custom {
+  background-color: $background-color;
+  font-family: $font-stack;
+  height: $navbar-height;
+  @include box-shadow(0, 2px, 4px, rgba(0, 0, 0, 0.1));
+
+  .navbar-brand {
+    color: $primary-color;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+
+  .nav-link {
+    color: $secondary-color;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: $background-color;
+    border: none;
+    @include box-shadow(0, 4px, 8px, rgba(0, 0, 0, 0.1));
+
+    .dropdown-item {
+      color: $secondary-color;
+
+      &:hover {
+        background-color: $primary-color;
+        color: #fff;
+      }
+    }
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(108,117,125, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+}

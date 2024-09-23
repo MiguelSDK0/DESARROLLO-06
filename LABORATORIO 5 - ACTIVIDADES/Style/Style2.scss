@@ -1,0 +1,102 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Helvetica Neue', Arial, sans-serif;
+$base-font-size: 16px;
+$header-height: 60px;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@function darken($color, $amount: 10%) {
+  @return mix(black, $color, $amount);
+}
+
+body {
+  font-family: $font-stack;
+  font-size: $base-font-size;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $secondary-color;
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
+    font-size: 24px;
+    color: #fff;
+  }
+}
+
+
+.button {
+  @include border-radius(5px);
+  background-color: $primary-color;
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.alert {
+  background-color: darken($secondary-color, 20%);
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid darken($secondary-color, 30%);
+  @include border-radius(4px);
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+
+  .header {
+    background-color: $primary-color;
+    padding: 20px;
+    text-align: center;
+    @include border-radius(10px);
+
+    .logo {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+
+  .content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    @include border-radius(8px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    p {
+      font-size: $base-font-size;
+      line-height: 1.5;
+    }
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+
+      &:hover {
+        color: darken($primary-color, 10%);
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$font-stack: 'Roboto', sans-serif;
+$hero-bg: url('https://tekla.io/wp-content/uploads/2022/03/Recurso1.png');
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  -webkit-box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  box-shadow: $x $y $blur $color;
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+  background-color: $background-color;
+  margin: 0;
+}
+
+.navbar {
+  @include box-shadow(0, 2px, 4px, rgba(0, 0, 0, 0.1));
+  .navbar-brand {
+    color: $primary-color;
+    font-size: 1.5rem;
+    font-weight: bold;
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+  .nav-link {
+    color: $secondary-color;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.hero {
+  background: $hero-bg no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.features {
+  .card {
+    @include box-shadow(0, 2px, 4px, rgba(0, 0, 0, 0.1));
+    &:hover {
+      @include box-shadow(0, 4px, 8px, rgba(0, 0, 0, 0.15));
+      transition: box-shadow 0.3s ease-in-out;
+    }
+  }
+}
+
+.testimonials {
+  background-color: $background-color;
+  .blockquote {
+    background-color: #fff;
+    border-left: 5px solid $primary-color;
+    padding: 15px;
+    @include box-shadow(0, 2px, 4px, rgba(0, 0, 0, 0.1));
+  }
+}
+
+.contact {
+  background-color: $background-color;
+  .form-control {
+    border: 1px solid lighten($secondary-color, 20%);
+    &:focus {
+      border-color: $primary-color;
+      box-shadow: none;
+    }
+  }
+  .btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    &:hover {
+      background-color: darken($primary-color, 10%);
+      border-color: darken($primary-color, 10%);
+    }
+  }
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  .container {
+    padding: 10px 0;
+  }
+}

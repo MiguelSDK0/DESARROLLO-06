@@ -1,0 +1,76 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  color: #3498db;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2ecc71;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #3498db;
+  padding: 10px 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #2f89c5;
+}
+
+.alert {
+  background-color: #25a35a;
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #208f4f;
+  border-radius: 4px;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+.container .header {
+  background-color: #3498db;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.container .header .logo {
+  font-size: 24px;
+  color: #fff;
+}
+.container .content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container .content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container .content a {
+  color: #3498db;
+  text-decoration: none;
+}
+.container .content a:hover {
+  color: #2f89c5;
+}/*# sourceMappingURL=Style2.css.map */
