@@ -1,0 +1,18 @@
+.comp2-container {
+    background-color: #2fb657;
+    padding: 15px;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+  }
+  
+  .comp2-title {
+    color: #0077b3;
+    font-size: 24px;
+  }
+  
+  .comp2-list-item {
+    color: #ffffff;
+    font-size: 18px;
+    list-style-type: square;
+  }
+  

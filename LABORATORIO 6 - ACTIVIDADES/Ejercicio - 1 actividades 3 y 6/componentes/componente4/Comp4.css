@@ -1,0 +1,12 @@
+.comp4-container {
+    background-color: #2fb657;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .comp4-list-item {
+    color: #000000;
+    font-size: 18px;
+    list-style-type: square;
+  }
+  
