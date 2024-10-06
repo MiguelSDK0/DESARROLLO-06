@@ -1,0 +1,36 @@
+.transformacion {
+  text-align: center;
+  padding: 20px;
+}
+
+.transform-badge {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.nivel-1 .transform-badge {
+  background-color: yellow;
+}
+
+.nivel-2 .transform-badge {
+  background-color: gold;
+}
+
+.nivel-3 .transform-badge {
+  background-color: orange;
+}
+
+.btn-transform {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
