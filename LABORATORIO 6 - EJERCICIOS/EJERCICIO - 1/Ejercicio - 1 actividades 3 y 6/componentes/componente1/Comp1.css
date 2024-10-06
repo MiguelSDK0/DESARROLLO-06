@@ -1,0 +1,17 @@
+.comp1-container {
+    background-color: #2fb657;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .comp1-title {
+    color: #d35400;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .comp1-content {
+    color: #7f8c8d;
+    font-size: 16px;
+  }
+  

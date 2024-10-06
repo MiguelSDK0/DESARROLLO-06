@@ -1,0 +1,40 @@
+.comp3-container {
+    background-color: #2fb657;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .comp3-title {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .comp3-description {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .comp3-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .comp3-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .comp3-button:active {
+    background-color: #1c6ea4;
+  }
+  
+  
