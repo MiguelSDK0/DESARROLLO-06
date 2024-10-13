@@ -1,0 +1,22 @@
+/* Services.css */
+.services-container {
+    text-align: center;
+    background-color: #fff8e1;
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #ff6f00;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #ff8f00;
+  }
+  
