@@ -1,0 +1,34 @@
+.Curs ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type:circle;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 0px solid black;
+}
+  
+.Curs ul li {
+    margin-left: 20px;
+    font-size: 12px;
+    border: 0px solid black;
+}
+  
+.Curs li a {
+    color: rgb(50, 14, 75);
+}
+  
+.Curs a {
+    text-decoration: none;
+}
+  
+.Curs div{
+    margin-left: 30px;
+    width: 400px; 
+    border-radius: 10px;
+    background-color: rgb(143, 143, 172);
+    border: 1px solid black;
+}
+  
+.Curs p, h2{
+    margin: 10px;
+}

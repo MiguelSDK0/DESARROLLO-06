@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center; 
+    font-weight: normal;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+}

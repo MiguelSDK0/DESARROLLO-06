@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Cabe .CabeceraLogo {
+  margin: 10px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.Cabe ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: rgb(229, 223, 235);
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.Cabe ul li {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.Cabe li a {
+  color: #0000009d;
+}
+
+.Cabe a {
+  text-decoration: none;
+}
