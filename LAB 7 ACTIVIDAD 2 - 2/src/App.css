@@ -1,0 +1,45 @@
+body {
+  background-color: #ffecb3;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #ff5722;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background-color: #1e88e5;
+  color: white;
+  border: 3px solid #ff5722;
+  padding: 10px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff9800;
+  border-color: #333;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.character-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
