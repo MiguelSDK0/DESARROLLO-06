@@ -1,0 +1,37 @@
+.Blog ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 0px solid black;
+}
+
+.Blog ul li {
+  margin-left: 20px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(70, 70, 126);
+}
+
+.Blog li a {
+  color: white;
+}
+
+.Blog a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.Blog div{
+  margin-left: 30px;
+  width: 200px; 
+  border-radius: 10px;
+  background-color: rgb(180, 180, 209);
+  border: 1px solid black;
+}
+
+.Blog p, h2{
+  margin: 10px;
+}
