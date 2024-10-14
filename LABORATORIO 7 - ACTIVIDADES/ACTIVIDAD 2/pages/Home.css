@@ -1,0 +1,21 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #3f51b5;
+    font-size: 3rem;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
+  
