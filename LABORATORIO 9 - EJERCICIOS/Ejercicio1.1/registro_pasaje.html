@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de Venta de Pasajes Aereos</h2>
+    <form method="POST" action="procesar_pasaje.php">
+        <table border="1">
+            <tr>
+                <td><label for="nombre">Nombre completo</label></td>
+                <td><input type="text" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="fecha_nacimiento">Fecha de nacimiento</label></td>
+                <td>
+                    <select name="mes" required>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                    </select>
+                    <select name="dia" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <input type="number" name="anio" placeholder="yyyy" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="precio">Precio del boleto</label></td>
+                <td><input type="number" name="precio" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Calcular Precio"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
